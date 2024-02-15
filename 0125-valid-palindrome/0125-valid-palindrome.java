@@ -16,7 +16,7 @@ class Solution {
             if (lowerCaseS.charAt(i) != lowerCaseS.charAt(j)){
                 return false; //returns false if values do not match
             }
-            j--;
+            j--;//decrements "j" at the end of each iteration 
         }
         return true;
     }
